@@ -11,7 +11,7 @@ var stylus = require('gulp-stylus');
 
 function stylusTask () {
   return src('./src/**/**/*.styl')
-    .pipe(stylus({compress: true}))
+    .pipe(stylus({compress: true, linenos: true}))
     .pipe(concat('kcl-style.min.css'))
     .pipe(dest('./'))
 }
