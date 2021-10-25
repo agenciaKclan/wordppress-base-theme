@@ -5,16 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php wp_title(); ?></title>
-    <!-- <link rel="stylesheet" href="<?php bloginfo( 'stylesheet_url' ); ?>"> -->
+    <!-- <link rel="stylesheet" href="<?php // bloginfo( 'stylesheet_url' ); ?>"> -->
     <!-- KCL styll -->
     <link rel="stylesheet" href="<?php bloginfo('template_directory')?>/kcl-style.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
     <?php wp_head(); ?>
 </head>
 <body>
     <div class="header">
         <div class="container">
-            <h2><a href="<?php echo site_url(); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></h2>
-            <!-- <h2><?php bloginfo('description'); ?></h2> -->
+            <div class="header__wrapper">
+                <h2><a href="<?php echo site_url(); ?>" title="<?php bloginfo('name'); ?>"><?php bloginfo('name'); ?></a></h2>
+                <?php
+                    wp_nav_menu('')
+                ?>
+            </div>
+            <!-- <h2><?php  /* bloginfo('description'); ?></h2> -->
             <div class="infor">
                 <?php
                     $args = array('post_type' => 'page', 'pagename' =>'sobre');
@@ -33,7 +40,7 @@
                 <?php endif ?>
 
             </div>
-            <!-- <div class="procura"><?php
+            <!-- <div class="procura"><?php 
                 get_search_form(
                     array(
                         'aria_label' => __( 'Search for:' ),
@@ -41,9 +48,7 @@
                 );
                 ?>
                 <?php the_category( ' ' ); ?>
-                <?php the_title( '<h1 class="tituloPost">', '</h1>' ); ?>
+                <?php the_title( '<h1 class="tituloPost">', '</h1>' ); */ ?>
             </div> -->
         </div>
     </div>
-</body>
-</html>

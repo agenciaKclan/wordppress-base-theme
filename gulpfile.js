@@ -10,14 +10,14 @@ var terser = require('gulp-terser');
 var stylus = require('gulp-stylus');
 
 function stylusTask () {
-  return src('./src/**/**/*.styl')
+  return src('./src/component/styles/**/**/*.styl')
     .pipe(stylus({compress: true, linenos: true}))
     .pipe(concat('kcl-style.min.css'))
     .pipe(dest('./'))
 }
 
 function jsTask () {
-  return src('./src/**/**/*.js')
+  return src('./src/component/js/**/**/*.js')
     .pipe(sourcemaps.init())
     .pipe(concat('index.min.js'))
     .pipe(terser())
@@ -25,23 +25,12 @@ function jsTask () {
     .pipe(dest('./'))
 }
 
-// function imgTask () {
-//   return (
-//     src('./src/img/**/*.svg') 
-//     .pipe(dest('./deploy/src/img/')),
-//     src('./src/img/**/*.png')
-//     .pipe(dest('./deploy/src/img/')),
-//     src('./src/img/**/*.webp')
-//     .pipe(dest('./deploy/src/img/'))
-//     )
-// }
-
 function listen() {
   init({
       proxy: "http://localhost/wordpress/"
   });
-  watch('./src/**/**/*.styl', stylusTask)
-  watch('./src/**/**/*.js', jsTask)
+  watch('./src/component/styles/**/**/*.styl', stylusTask)
+  watch('./src/component/js/**/**/*.js', jsTask)
   watch('./*.css').on('change', reload)
   watch('./*.js').on('change', reload)
   watch('./*.php').on('change', reload)
