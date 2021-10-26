@@ -5,4 +5,32 @@
   font-family 'Roboto' ,sans-serif
 .container
     margin 0 auto
-    width 960px
+    width 1280px
+    .posts__content
+        display flex
+    .posts__boxLeft
+        flex 0 1 70%
+    .posts__boxRight
+        flex 0 1 25%
+        margin 56px 0 0 auto
+        .widget
+            margin-bottom 50px
+            border 1px solid #cecece
+            box-shadow 0 0 10px #999
+            border-radius 3px
+            overflow hidden
+            &_search
+                border none
+                box-shadow none
+        .wp-block-group
+            ul
+                margin 15px
+                padding 0
+                li
+                    list-style none
+            h2
+                font-size 30px
+                margin 0 0 15px
+                color #fff
+                text-align center
+                background #000
