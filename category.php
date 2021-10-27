@@ -1,7 +1,22 @@
 <?php
     get_header(); ?>
-    <main class="page">
+    <main class="category">
         <div class="container">
+        <?php
+            if ( function_exists('yoast_breadcrumb') ) {
+            yoast_breadcrumb( '</p><p id="breadcrumbs">','</p><p>' );
+            }
+        ?>
+            <div class="posts__content">
+                <div class="posts__boxLeft">
+                </div>
+                <div class="posts__boxRight">
+                    <div class="posts__title">
+                        <?php dynamic_sidebar('primary-sidebar') ?>
+                    </div>
+                </div>
+            </div>
+
         <?php
 
         $argsCategory = array(

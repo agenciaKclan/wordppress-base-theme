@@ -2,6 +2,11 @@
 <?php while ( have_posts() ) : the_post(); ?>
 <main class="post">
 	<div class="container">
+        <?php
+            if ( function_exists('yoast_breadcrumb') ) {
+            yoast_breadcrumb( '</p><p id="breadcrumbs">','</p><p>' );
+            }
+        ?>
 		<div class="clear"></div>
 		<div class="main">
             <div class="posts__content">
