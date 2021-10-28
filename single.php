@@ -12,7 +12,9 @@
             <div class="posts__content">
                 <div class="posts__boxLeft">
                     <div class="post__content">
-                        <h1 class="post__title"><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h1>
+                        <p><?php the_modified_author()?></p>
+                        <p><?php the_date()?></p>
+                        <h1 class="post__title"><?php the_title();?></h1>
                         <?php $image = get_bloginfo('template_url').'/images/noimg.png';
                             if ( has_post_thumbnail() ) { ?>
                                 <div class="box-img">

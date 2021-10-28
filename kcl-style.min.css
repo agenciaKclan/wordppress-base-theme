@@ -1,4 +1,72 @@
 
+/* line 297 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/category.styl */
+
+/* line 1 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/category.styl */
+.category{padding-top:120px;min-height:90vh}
+/* line 4 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/category.styl */
+.category .posts__boxLeft{margin-top:56px}
+/* line 6 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/category.styl */
+
+/* line 7 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/category.styl */
+.category .posts__boxLeft .box-img img{max-width:100%;height:auto}
+/* line 10 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/category.styl */
+.category .posts__boxRight{margin-top:133px}
+
+/* line 297 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/page.styl */
+
+/* line 1 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/page.styl */
+.page{padding-top:120px;min-height:90vh}
+/* line 4 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/page.styl */
+.page .posts__boxLeft{margin-top:56px}
+/* line 6 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/page.styl */
+.page .posts__boxRight{margin-top:56px}
+
+/* line 297 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/posts.styl */
+
+/* line 1 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/posts.styl */
+.post{padding-top:120px;min-height:90vh}
+/* line 4 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/posts.styl */
+.post .posts__boxLeft{margin-top:56px}
+/* line 6 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/posts.styl */
+.post .posts__boxRight{margin-top:133px}
+/* line 8 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/posts.styl */
+
+/* line 9 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/posts.styl */
+
+/* line 10 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/posts.styl */
+
+/* line 11 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/posts.styl */
+.post .container .main .post__content h1{margin-bottom:20px}
+/* line 13 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/posts.styl */
+.post .container .main .post__content a,.post .container .main .post__content p{display:block;width:100%;text-align:center;margin:20px 0}
+/* line 18 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/posts.styl */
+
+/* line 19 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/posts.styl */
+.post .container .main .post__content .box-img img{max-width:100%;height:auto;margin:0 auto;display:block}
+
+/* line 297 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/search.styl */
+
+/* line 1 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/node_modules/stylus/lib/functions/index.styl */
+
+/* line 1 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/search.styl */
+.search{padding-top:120px;min-height:90vh}
+/* line 4 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/search.styl */
+.search li{list-style:none}
+/* line 6 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/search.styl */
+.search .posts__boxLeft{margin-top:56px}
+/* line 8 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/search.styl */
+
+/* line 9 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/search.styl */
+.search .posts__boxLeft .box-img img{max-width:100%;height:auto;margin:0 auto;display:block}
+/* line 14 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/search.styl */
+.search .posts__boxRight{margin-top:133px}
+
 /* line 297 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/geral/footer.styl */
 
 /* line 1 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/node_modules/stylus/lib/functions/index.styl */
@@ -150,67 +218,3 @@
 .blog .liste-posts-content .box-content-post__wrapper p{margin-left:10px}
 /* line 116 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/geral/main.styl */
 .blog .liste-posts-content:nth-child(even){flex-direction:row-reverse}
-
-/* line 297 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/category.styl */
-
-/* line 1 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/node_modules/stylus/lib/functions/index.styl */
-
-/* line 1 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/category.styl */
-.category{padding-top:120px;min-height:90vh}
-/* line 4 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/category.styl */
-.category .posts__boxLeft{margin-top:56px}
-/* line 6 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/category.styl */
-.category .posts__boxRight{margin-top:133px}
-
-/* line 297 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/page.styl */
-
-/* line 1 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/node_modules/stylus/lib/functions/index.styl */
-
-/* line 1 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/page.styl */
-.page{padding-top:120px;min-height:90vh}
-/* line 4 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/page.styl */
-.page .posts__boxLeft{margin-top:56px}
-/* line 6 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/page.styl */
-.page .posts__boxRight{margin-top:56px}
-
-/* line 297 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/posts.styl */
-
-/* line 1 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/node_modules/stylus/lib/functions/index.styl */
-
-/* line 1 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/posts.styl */
-.post{padding-top:120px;min-height:90vh}
-/* line 4 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/posts.styl */
-.post .posts__boxLeft{margin-top:56px}
-/* line 6 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/posts.styl */
-.post .posts__boxRight{margin-top:133px}
-/* line 8 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/posts.styl */
-
-/* line 9 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/posts.styl */
-
-/* line 10 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/posts.styl */
-
-/* line 11 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/posts.styl */
-.post .container .main .post__content h1{margin-bottom:20px}
-/* line 13 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/posts.styl */
-.post .container .main .post__content a,.post .container .main .post__content p{display:block;width:100%;text-align:center;margin:20px 0}
-/* line 18 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/posts.styl */
-
-/* line 19 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/posts.styl */
-.post .container .main .post__content .box-img img{max-width:100%;height:auto;margin:0 auto;display:block}
-
-/* line 297 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/search.styl */
-
-/* line 1 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/node_modules/stylus/lib/functions/index.styl */
-
-/* line 1 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/search.styl */
-.search{padding-top:120px;min-height:90vh}
-/* line 4 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/search.styl */
-.search li{list-style:none}
-/* line 6 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/search.styl */
-.search .posts__boxLeft{margin-top:56px}
-/* line 8 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/search.styl */
-
-/* line 9 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/search.styl */
-.search .posts__boxLeft .box-img img{max-width:100%;height:auto;margin:0 auto;display:block}
-/* line 14 : /opt/lampp/htdocs/wordpress/wp-content/themes/newteme/src/component/styles/pages/search.styl */
-.search .posts__boxRight{margin-top:133px}
