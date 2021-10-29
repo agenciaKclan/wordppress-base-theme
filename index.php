@@ -50,7 +50,7 @@
                 <h2 class="posts__init">Posts</h2>
                 <div class="box-liste-posts">
                     <?php
-                        $args = array('post_type'=>'post', 'showposts'=> 10);
+                        $args = array('post_type'=>'post', 'showposts'=> 30);
                         $my_posts = get_posts( $args );
                     ?>
                     <?php $cont = 1; if( $my_posts ) : foreach( $my_posts as $post ) : setup_postdata( $post ); ?>

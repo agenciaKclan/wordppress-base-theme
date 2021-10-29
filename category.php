@@ -31,14 +31,23 @@
                                 ?>
                                 <div class="liste-posts-content liste-posts-content--<?php echo $cont ?>">
                                     <div class="box-text">
-                                    <a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
-                                    <p><?php the_date(); ?></p>
-                                    <p><?php the_author(); ?></p>
+                                        <a href="<?php the_permalink(); ?>"><h2><?php the_title(); ?></h2></a>
+                                        <div class="box-inf">
+                                            <?php $aut = get_the_modified_author();
+                                            if ($aut != '') {
+                                                ?><p class="box-inf--1">Postado no dia <?php the_date(); ?></p>
+                                                <p class="box-inf--2"></p>
+                                                <p class="box-inf--3">Autor do post:  <?php the_modified_author(); ?></p>
+                                            <?php 
+                                            } else {?>
+                                            <p>Postado no dia <?php the_date(); ?></p>
+                                            <?php } ?>
+                                        </div>
                                     </div>
                                     <?php 
                                     if ( has_post_thumbnail() ) { ?>
                                         <div class="box-img">
-                                        <a href="<?php the_permalink(); ?>"><?php echo the_post_thumbnail(); ?></a>
+                                            <a href="<?php the_permalink(); ?>"><?php echo the_post_thumbnail(); ?><div class="box-context"><?php the_excerpt(); ?></div></a>
                                         </div>
                                     <?php 
                                     } else { ?>
